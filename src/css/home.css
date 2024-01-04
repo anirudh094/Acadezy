@@ -41,3 +41,32 @@
   padding-left: 9em;
   padding-right: 9em;
 }
+
+.font-bold text-3xl text-center pb-1{
+  background-color: #50A38E;
+}
+
+
+
+
+
+button{
+  width: 85%;
+ background-color: #718e94;
+  
+  color: black;
+  border: 3px #3a5f69 solid;
+  border-top-right-radius: 5px;
+
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover {opacity: 0.5}
