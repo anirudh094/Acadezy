@@ -1,0 +1,140 @@
+@import "rsuite/dist/rsuite.css";
+
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", "Roboto";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar,.rs-navbar-default {
+  background-color: white !important;
+  padding: 10px;
+}
+
+.rs-navbar-brand {
+  padding: 0px 0px 0px 0px!important;
+}
+.logo img{
+  width: 50px;
+}
+.rs-navbar-item:hover{
+  background-color: transparent !important;
+}
+.nav-search-border{
+  border: 0px;
+  background-color: lightgray !important;
+  border-radius: 20px;
+}
+
+.nav-search{
+  margin: 5px !important;
+  font-size: small !important;
+  padding: 0px 10px !important;
+  border: 0px !important;
+  border-radius: 20px !important;
+  background-color: rgba(0, 255, 255, 0) !important;
+}
+
+.nav-search:active , .nav-search:hover{
+  border: 0px;
+}
+
+.nav-search span{
+  margin: 3px 0px 0px 0px;
+  color: #000;
+}
+
+.nav-links {
+  color: #000000;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  text-decoration: none !important;
+  color: #3A5F69;
+}
+
+.nav-links-register,.nav-links-login{
+  width: 130px;
+  color: white;
+  border-radius: 10px;
+  padding: 2px;
+  text-align: center;
+  border: solid #3A5F69 2px;
+  margin-left: 10px;
+}
+.nav-links-register:hover,.nav-links-login:hover{
+  background-color: white;
+  color: #3A5F69;
+}
+.menu-side-bar{
+  display: none;
+}
+@media screen and (max-width: 1050px) {
+  .menu-side-bar{
+    display: flex;
+  }
+  .menu-top-bar{
+    display: none;
+  }
+}
+footer {
+  background-color: #00A36C;
+}
+
+.list-group,
+.list-group-item {
+  background-color: inherit !important;
+}
+
+.timings table {
+  border-color: #000000;
+}
+
+.timings tr {
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.main-color {
+  color: #3A5F69 !important;
+}
+
+.main-color-bg {
+  background-color: #3A5F69;
+}
+
+h5 {
+  font-weight: bold !important;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-us-section p {
+    padding: 0em !important;
+  }
+}

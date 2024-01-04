@@ -1,0 +1,9 @@
+.main-color {
+  color: #50A38E;
+}
+
+@media only screen and (max-width: 992px) {
+  .remove-flex-sm {
+    display: block !important;
+  }
+}
