@@ -57,19 +57,24 @@ body {
   text-decoration: none;
 }
 
-.nav-links:hover {
+.nav-links:hover{
   text-decoration: none !important;
-  color: #3A5F69;
+  color: #3A5F69 !important;
 }
-
+.nav-links:visited{
+  color: #000;
+}
 .nav-links-register,.nav-links-login{
   width: 130px;
-  color: white;
+  color: white !important;
   border-radius: 10px;
   padding: 2px;
   text-align: center;
   border: solid #3A5F69 2px;
   margin-left: 10px;
+}
+.rs-btn{
+  background-color: transparent;
 }
 .nav-links-register:hover,.nav-links-login:hover{
   background-color: white;

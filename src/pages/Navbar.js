@@ -3,17 +3,20 @@ import { Link } from "react-router-dom";
 import InputGroup from 'react-bootstrap/InputGroup';
 import { Navbar, Nav } from 'rsuite';
 import SearchIcon from '@rsuite/icons/Search';
+import MenuIcon from '@rsuite/icons/Menu';
 import { Drawer, ButtonToolbar, Button, Placeholder } from 'rsuite';
 import React from 'react';
 
 function NavbarHeader() {
   const ChartIcon = ({ size }) => <SearchIcon style={{ fontSize: size, marginRight: 10 }} />;
+  const MenuUIcon = ({ size }) => <MenuIcon style={{ fontSize: size, marginRight: 10 }} />;
   const [size, setSize] = React.useState();
   const [open, setOpen] = React.useState(false);
   const handleOpen = value => {
     setSize(value);
     setOpen(true);
   };
+
   return (
     <>
     
@@ -55,7 +58,7 @@ function NavbarHeader() {
     </Nav>
     <Nav pullRight className="menu-side-bar">
     <ButtonToolbar>
-        <Button onClick={() => handleOpen("300px")}>Open</Button>
+        <Button onClick={() => handleOpen("300px")}><span><MenuUIcon size="30px" /></span></Button>
       </ButtonToolbar>
 
       <Drawer size={size} open={open} onClose={() => setOpen(false)}>
