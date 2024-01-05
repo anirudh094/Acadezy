@@ -46,18 +46,13 @@
   background-color: #50A38E;
 }
 
-
-
-
-
-button{
+button {
   width: 85%;
  background-color: #718e94;
   
   color: black;
   border: 3px #3a5f69 solid;
-  border-top-right-radius: 5px;
-
+ 
   padding: 16px 32px;
   text-align: center;
   font-size: 16px;
@@ -70,3 +65,4 @@ button{
 }
 
 button:hover {opacity: 0.5}
+
