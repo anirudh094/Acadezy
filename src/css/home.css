@@ -71,7 +71,7 @@
 }
 .fixed-heading{
   font-size: 3vw;
-
+}
 button {
   width: 85%;
  background-color: #718e94;
@@ -100,7 +100,5 @@ button:hover {opacity: 0.5}
 
 @keyframes animate {
 
-  50% {
-      content: "Learn Today, Lead Tomorrow";
-  }
+  50% {content: "Learn Today, Lead Tomorrow";}
 }
