@@ -9,7 +9,7 @@ const products = [
   },
   {
     id: 2,
-    name: "course1",
+    name: "course2",
     href: "#course",
     price: "Rs500",
     imageSrc: "images/marketing.jpg",
