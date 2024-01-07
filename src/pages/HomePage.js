@@ -247,7 +247,9 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+        
 
+        
         <div className="2xl:container 2xl:mx-auto">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-24 md:gap-10 gap-12 lg:px-20 md:py-12 md:px-6 py-9 px-4">
             {/* Free Shipping Grid Card */} 
