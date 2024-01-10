@@ -10,7 +10,7 @@ function FooterBar() {
     <footer className=" p-3">
       <Row>
         <Col md={12} lg={6}>
-          <h5 class="mb-3">VARS Grad</h5>
+          <h5 class="mb-3">Acadezy</h5>
           <p>
           EdTech, short for Educational Technology, harnesses digital tools and platforms to enhance teaching, learning, and skill development.
            It encompasses diverse resources, from interactive apps to online courses, revolutionizing education worldwide.
@@ -27,8 +27,8 @@ function FooterBar() {
           </ListGroup>
         </Col>
 
-        <Col md={6} lg={3}>
-          <h5>Course Durations</h5>
+        {/* <Col md={6} lg={3}>
+          <h5>course duration</h5>
           <Table striped className="timings">
             <tbody>
               <tr>
@@ -41,10 +41,10 @@ function FooterBar() {
               </tr>
             </tbody>
           </Table>
-        </Col>
+        </Col> */}
       </Row>
       <div className="text-center mt-2 bg-dark main-color p-3">
-        © 2023 Copyright: VARS Grad.com
+        © 2023 Copyright: Acadezy.com
       </div>
     </footer>
   );

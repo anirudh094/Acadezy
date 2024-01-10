@@ -92,7 +92,7 @@ body {
   }
 }
 footer {
-  background-color: #00A36C;
+  background-color: #718e94;
 }
 
 .list-group,
@@ -142,4 +142,40 @@ a:active {
   .about-us-section p {
     padding: 0em !important;
   }
+}
+
+.login-popup{
+
+  width: 445px;
+  height: 450px;
+  background-color: #718e94;
+
+}
+
+#login{
+  width: 50%;
+  margin-left: 25%;
+}
+
+#pop{
+  margin-top: 5%;
+}
+
+#signup{
+  color: white;
+  margin-left: 42%;
+  text-size-adjust: 30px;
+}
+
+#icons{
+  margin-left: 40%;
+  margin-bottom: 15%;
+}
+
+#google-icon{
+  margin-bottom: 35%;
+}
+
+#github-icon{
+  margin-bottom: 35%;
 }

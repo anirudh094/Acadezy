@@ -78,7 +78,7 @@ const ContactUs = () => {
                       LinkedIn
                     </h4>
                     <p className="text-body-color text-base">
-                      EdIntern
+                      Acadezy
                     </p>
                   </div>
                 </div>
