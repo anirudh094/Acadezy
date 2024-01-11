@@ -71,11 +71,11 @@
 }
 .fixed-heading{
   font-size: 3vw;
+  text-align: center !important;
 }
 .view{
   width: 85%;
- background-color: #718e94;
-  
+  background-color: #718e94;
   color: black;
   text-align: center;
   margin-top: 10px;
@@ -87,6 +87,7 @@
   font-size: 20px;
   margin-top: 10px;
   padding: 5px 30px;
+  width: fit-content;
 }
 .rotating-heading::before {
   content: "Revolutionizing Learning";
