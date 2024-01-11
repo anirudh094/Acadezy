@@ -23,7 +23,7 @@ function NavbarHeader() {
     <Navbar>
     <Navbar.Brand href="#">
         <div className="logo">
-            <img src="images/2.png"></img>
+            <img src="images/favicon.png"></img>
         </div>
     </Navbar.Brand>
     <Nav className='menu-top-bar'>

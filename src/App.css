@@ -148,7 +148,7 @@ a:active {
 
   width: 445px;
   height: 450px;
-  background-color: #718e94;
+  /* background-color: #718e94; */
 
 }
 
@@ -161,8 +161,12 @@ a:active {
   margin-top: 5%;
 }
 
+.customPlaceholder::placeholder {
+  color: black; /* Change the placeholder text color to green */
+}
+
 #signup{
-  color: white;
+  color:#718e94;
   margin-left: 42%;
   text-size-adjust: 30px;
 }

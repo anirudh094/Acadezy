@@ -10,7 +10,7 @@ const AboutUs = () => {
         <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12 remove-flex-sm">
           <div className="w-full lg:w-6/12">
             <h2 className="orange-text w-full font-bold lg:text-4xl text-3xl lg:leading-10 leading-9 ">
-              EdIntern provides industry ready internship courses to college  students.
+              Acadezy provides industry ready internship courses to college  students.
             </h2>
             <p className="font-normal text-base leading-6 text-gray-600 mt-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget sapien sit amet nunc accumsan consectetur. Curabitur euismod convallis neque, vitae placerat turpis interdum eget. Quisque auctor metus eu nulla consectetur, sed eleifend turpis fermentum.

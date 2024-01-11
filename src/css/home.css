@@ -84,7 +84,7 @@
   color: white;
   text-align: center;
   border-radius: 2px;
-  font-size: 10px;
+  font-size: 20px;
   margin-top: 10px;
   padding: 5px 30px;
 }
@@ -101,4 +101,14 @@ button:hover {opacity: 0.5}
 @keyframes animate {
 
   50% {content: "Learn Today, Lead Tomorrow";}
+}
+
+
+
+.view-course{
+  background-color: #718e94;
+  width: 100%;
+  border: 3px solid #3A5F69;
+  color: white;
+  border-radius: 12px;
 }

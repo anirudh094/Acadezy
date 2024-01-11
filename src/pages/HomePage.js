@@ -15,7 +15,7 @@ export default function HomePage() {
             <div className="fixed-heading">Learn today for better tomorrow</div> 
             <button className="banner-btn main-color-bg">View More</button>
         </div>
-        <img src="images/1.png"/>
+        <img src="images/image1.jpg"/>
       </div>
 
       <Container>
@@ -86,9 +86,9 @@ export default function HomePage() {
                         Mentorship from industry experts
                       </p>
                       <p className="text-center text-gray-600 text-base pt-3 font-normal" >
-                      <button id="View"> Basics </button> <br></br> <br></br>
-                     <button id="View"> Moderate </button><br></br><br></br>
-                     <button id="View"> Expertise </button><br></br><br></br>
+                      <button id="View" className="view-course"> Basics </button> <br></br> <br></br>
+                     <button id="View" className="view-course"> Moderate </button><br></br><br></br>
+                     <button id="View" className="view-course"> Expertise </button><br></br><br></br>
                       </p>
                       {/* <div className="w-full flex justify-center pt-5 pb-5">
                        
@@ -115,9 +115,9 @@ export default function HomePage() {
                         One-to-One Mentorship
                       </p>
                       <p className="text-center text-gray-600 text-base pt-3 font-normal">
-                     <button id="View"> Basics </button> <br></br> <br></br>
-                     <button id="View"> Moderate </button><br></br><br></br>
-                     <button id="View"> Expertise </button><br></br><br></br>
+                     <button id="View" className="view-course"> Basics </button> <br></br> <br></br>
+                     <button id="View" className="view-course"> Moderate </button><br></br><br></br>
+                     <button id="View" className="view-course"> Expertise </button><br></br><br></br>
                       </p>
                       {/* <div className="w-full flex justify-center pt-3 pb-3">
                         <p className="text-black-400 text-sm text-center font-Times New Roman ">
@@ -145,9 +145,9 @@ export default function HomePage() {
                         Online-Marketing Wizard
                       </p>
                       <p className="text-center text-gray-600 text-base pt-3 font-normal">
-                      <button className="View"> Basics </button> <br></br> <br></br>
-                     <button className="View"> Moderate </button><br></br><br></br>
-                     <button className="View"> Expertise </button><br></br><br></br>
+                      <button id="View" className="view-course"> Basics </button> <br></br> <br></br>
+                     <button id="View" className="view-course"> Moderate </button><br></br><br></br>
+                     <button id="View" className="view-course"> Expertise </button><br></br><br></br>
                       </p>
                     
                     </div>
@@ -172,9 +172,9 @@ export default function HomePage() {
                       Data is the next big thing
                       </p>
                       <p className="text-center text-gray-600 text-base pt-3 font-normal">
-                      <button className="View"> Basics </button> <br></br> <br></br>
-                     <button className="View"> Moderate </button><br></br><br></br>
-                     <button className="View"> Expertise </button><br></br><br></br>
+                      <button id="View" className="view-course"> Basics </button> <br></br> <br></br>
+                     <button id="View" className="view-course"> Moderate </button><br></br><br></br>
+                     <button id="View" className="view-course"> Expertise </button><br></br><br></br>
                       </p>
                       {/* <div className="w-full flex justify-center pt-5 pb-5">
                         
@@ -201,9 +201,9 @@ export default function HomePage() {
                        lorem ipsum
                       </p>
                       <p className="text-center text-gray-600 text-base pt-3 font-normal">
-                      <button className="View"> Basics </button> <br></br> <br></br>
-                     <button className="View"> Moderate </button><br></br><br></br>
-                     <button className="View"> Expertise </button><br></br><br></br>
+                      <button id="View" className="view-course"> Basics </button> <br></br> <br></br>
+                     <button id="View" className="view-course"> Moderate </button><br></br><br></br>
+                     <button id="View" className="view-course"> Expertise </button><br></br><br></br>
                       </p>
                       
                     </div>
@@ -228,9 +228,9 @@ export default function HomePage() {
                         data
                       </p>
                       <p className="text-center text-gray-600 text-base pt-3 font-normal">
-                      <button className="View"> Basics </button> <br></br> <br></br>
-                     <button className="View"> Moderate </button><br></br><br></br>
-                     <button className="View"> Expertise </button><br></br><br></br>
+                      <button id="View" className="view-course"> Basics </button> <br></br> <br></br>
+                     <button id="View" className="view-course"> Moderate </button><br></br><br></br>
+                     <button id="View" className="view-course"> Expertise </button><br></br><br></br>
                       </p>
                      
                     </div>
@@ -329,7 +329,7 @@ export default function HomePage() {
               </div> */}
 
 
-               <section className="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px]">
+               {/* <section className="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px]"> */}
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -1269,7 +1269,7 @@ export default function HomePage() {
           </div>
                
             </div>
-          </section>
+          {/* </section> */}
           </div>
         </div>
         </Container>

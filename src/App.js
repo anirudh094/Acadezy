@@ -11,7 +11,6 @@ import { FaGithub } from "react-icons/fa";
 
 function App() {
 
-  // const[buttonPopUp, setButtonPopUp] = useState(false);
   const[timedPopUp, settimedPopUp] = useState(false);
 
 useEffect( () =>{
@@ -32,7 +31,7 @@ useEffect( () =>{
                       type="text"
                       placeholder="Your Name"
                       aria-label="text"
-                      className="text-body-color border-[f0f0f0] focus:border-primary w-[95%] m-2  rounded border py-3 px-[10px] text-base outline-none focus-visible:shadow-none"
+                      className="text-body-color border-[f0f0f0] focus:border-primary w-[95%] m-2 customPlaceholder bg-[#7a959b] rounded border py-3 px-[10px] text-base outline-none focus-visible:shadow-none"
                     />
                   </div>
                   <div className="mb-6">
@@ -40,7 +39,7 @@ useEffect( () =>{
                       type="email"
                       placeholder="Your Email"
                       aria-label="text"
-                      className="text-body-color border-[f0f0f0] focus:border-primary w-[95%] m-2 rounded border py-3 px-[10px] text-base outline-none focus-visible:shadow-none"
+                      className="text-body-color border-[f0f0f0] focus:border-primary w-[95%] m-2 rounded border py-3 px-[10px] bg-[#7a959b] text-base outline-none customPlaceholder focus-visible:shadow-none"
                     />
                   </div>
                   <div className="mb-6">
@@ -48,17 +47,17 @@ useEffect( () =>{
                       type="text"
                       placeholder="Your Phone"
                       aria-label="text"
-                      className="text-body-color border-[f0f0f0] focus:border-primary w-[95%] m-2 rounded border py-3 px-[10px] text-base outline-none focus-visible:shadow-none"
+                      className="text-body-color border-[f0f0f0] focus:border-primary w-[95%] m-2 bg-[#7a959b] customPlaceholder rounded border py-3 px-[10px] text-base outline-none focus-visible:shadow-none"
                     />
                   </div>
                   
                   <div>
                     <button
                       type="submit"
-                      className="w-full main-color-bg text-dark font-bold rounded border p-3 transition hover:bg-opacity-90"
+                      className="w-full main-color-bg text-white font-bold rounded border p-3 transition hover:bg-opacity-90"
                       id="login"
                     >
-                      login
+                      Login
                     </button>
                   </div>
                   <br></br> 
@@ -75,15 +74,7 @@ useEffect( () =>{
                         <button className="github" id="github-icon"> <FaGithub size={30}/></button>
                       
                       </div>
-                      
-
-             
-
-                
-               
-        
-        
-      </form>
+                      </form>
      </PopUp>
       
       <FooterBar />
