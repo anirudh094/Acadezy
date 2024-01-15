@@ -25,10 +25,8 @@ useEffect( () =>{
     <Router>
       <NavbarHeader />
       <NavigationalRoutes />
-
       <Testimonials />
       <Partners />
-===
      <PopUp trigger={timedPopUp} setTrigger={settimedPopUp}>
        
        <form className="login-popup" id="login-popup">

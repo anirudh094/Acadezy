@@ -19,42 +19,7 @@ export default function HomePage() {
       </div>
 
       <Container>
-        {/* <div class="about-us-section" id="about-us">
-          <h2 className="text-center main-color font-bold">VARS Grad</h2>
-          <h3 className="text-center main-color font-bold">
-            Learn, intern, earn.
-          </h3>
-          <p className="text-center">
-          EdTech, short for Educational Technology, harnesses digital tools and platforms to enhance teaching, learning, and skill development.
-           It encompasses diverse resources, from interactive apps to online courses, revolutionizing education worldwide.
-          </p>
-        </div> */}
-
-          {/* <Carousel variant="dark">
-        <Carousel.Item className="header">
-          <img
-            className="d-block w-100 cover-picture"
-            src="images/web.png"
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item className="header">
-          <img
-            className="d-block w-100  cover-picture"
-            src="images/marketing.jpg"
-            alt="Second slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item className="header">
-          <img
-            className="d-block w-100 cover-picture"
-            src="images/web design.png"
-            alt="Third slide"
-          />
-        </Carousel.Item>
-      </Carousel> */}
-
-        {/* <div> */}
+        
           <div className="container flex justify-center mx-auto pt-16">
             <div>
              
