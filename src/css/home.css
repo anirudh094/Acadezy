@@ -1,42 +1,3 @@
-/* .header {
-  position: relative;
-  background: no-repeat center center;
-  background-size: cover;
-  padding-bottom: 5em;
-  height: 80vh;
-}
-.header-text {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 1.5625em;
-  color: #6DB9EF;
-  background-color: rgb(0 0 0 / 83%);
-}
-
-.header-text h5 {
-  color: #50A38E;
-  font-size: 35px;
-  font-weight: 600;
-}
-
-.header-text p {
-  color: #50A38E;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.about-us-section {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-.about-us-section p {
-  font-family: "Segoe UI";
-  color: #000000;
-  padding-left: 9em;
-  padding-right: 9em;
-} */
-
 /* First Banner */
 .first-banner-0{
   display: flex;
@@ -87,7 +48,13 @@
   font-size: 20px;
   margin-top: 10px;
   padding: 5px 30px;
+  border: 3px solid #3A5F69;
   width: fit-content;
+}
+.banner-btn:hover{
+  background-color: white;
+  border-color: #3A5F69;
+  color: #3A5F69;
 }
 .rotating-heading::before {
   content: "Revolutionizing Learning";
@@ -95,10 +62,6 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
-
-button:hover {opacity: 0.5}
-
-
 @keyframes animate {
 
   50% {content: "Learn Today, Lead Tomorrow";}
@@ -107,9 +70,14 @@ button:hover {opacity: 0.5}
 
 
 .view-course{
-  background-color: #718e94;
+  background-color: #3A5F69;
   width: 100%;
   border: 3px solid #3A5F69;
   color: white;
-  border-radius: 12px;
+  padding: 5px 0px;
+}
+.view-course:hover{
+  background-color: white;
+  border-color: #3A5F69;
+  color: #3A5F69;
 }

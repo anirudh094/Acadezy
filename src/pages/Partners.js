@@ -29,7 +29,6 @@ function Partners() {
                 <div className="carousel-cell partners-cell">
                     <img src="images/4.png"></img>
                 </div>
-                --------
             </div>
             
       </div>

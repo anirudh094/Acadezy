@@ -1,4 +1,62 @@
+import React,{useState} from "react";
+import "../css/contactus.css";
+import { Reload } from "@rsuite/icons";
+
 const ContactUs = () => {
+
+  const [user , setUser] = useState({
+    name: "",
+    email: "",
+    phonenumber: "",
+    message: "",
+});
+
+let name,value;
+const getUserData = (event) => {
+    name = event.target.name;
+    value = event.target.value;
+
+    setUser({...user, [name]: value });
+};
+
+const postData = async (e) => {
+    e.preventDefault();
+
+    const { name,email,phonenumber,message} = user;
+
+    if((name && email && phonenumber && message)){
+        const res = await fetch(
+            "https://react01-9666b-default-rtdb.firebaseio.com/acadezy.json",
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body:JSON.stringify({
+                    name,
+                    email,
+                    phonenumber,
+                    message,
+                })
+            }
+        );
+
+        if (res) {
+            setUser({
+              name: "",
+              email: "",
+              phonenumber: "",
+              message: "",
+            });
+
+            alert("Our team will contact you shortly");
+            window.location.reload(true);
+        }
+    } else {
+        alert("Fill all data");
+    }
+};
+
   return (
     <>
       {/* <section className="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px]"> */}
@@ -90,39 +148,56 @@ const ContactUs = () => {
                   <div className="mb-6">
                     <input
                       type="text"
+                      name="name"
                       placeholder="Your Name"
                       aria-label="text"
                       className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                      value={user.task}
+                      onChange={getUserData}
+                      required
                     />
                   </div>
                   <div className="mb-6">
                     <input
                       type="email"
+                      name="email"
                       placeholder="Your Email"
                       aria-label="text"
                       className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                      value={user.task}
+                      onChange={getUserData}
+                      required
                     />
                   </div>
                   <div className="mb-6">
                     <input
-                      type="text"
+                      type="number"
+                      name="phonenumber"
                       placeholder="Your Phone"
                       aria-label="text"
                       className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                      value={user.task}
+                      onChange={getUserData}
+                      required
                     />
                   </div>
                   <div className="mb-6">
                     <textarea
                       rows="6"
+                      name="message"
                       placeholder="Your Message"
                       aria-label="text"
                       className="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                      value={user.task}
+                      onChange={getUserData}
+                      required
                     ></textarea>
                   </div>
                   <div>
                     <button
                       type="submit"
-                      className="w-full main-color-bg text-dark font-bold rounded border p-3 transition hover:bg-opacity-90"
+                      className="submit-btn"
+                      onClick={postData}
                     >
                       Send Message
                     </button>
@@ -940,7 +1015,7 @@ const ContactUs = () => {
             </div>
           </div>
 
-          <div className="py-16 bg-gray-50">
+          {/* <div className="py-16 bg-gray-50">
             <div className="container mx-auto px-4 flex flex-col lg:items-center justify-between lg:flex-row">
               <div className="mb-14 xl:mb-0">
                 <h1 className="text-2xl leading-tight md:text-4xl xl:text-5xl font-semibold leading-10   text-gray-800 xl:w-2/3 pr-16 lg:pr-0">
@@ -1006,7 +1081,7 @@ const ContactUs = () => {
                 </button>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       {/* </section> */}
     </>

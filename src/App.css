@@ -22,15 +22,16 @@ body {
   padding: 0px 0px 0px 0px!important;
 }
 .logo img{
-  width: 50px;
+  width: 200px;
 }
 .rs-navbar-item:hover{
   background-color: transparent !important;
 }
-.nav-search-border{
+/* .nav-search-border{
   border: 0px;
   background-color: lightgray !important;
   border-radius: 20px;
+  
 }
 
 .nav-search{
@@ -49,7 +50,7 @@ body {
 .nav-search span{
   margin: 3px 0px 0px 0px;
   color: #000;
-}
+} */
 
 .nav-links {
   color: #000000;
@@ -57,7 +58,7 @@ body {
   text-decoration: none;
 }
 
-.nav-links:hover{
+.nav-links:hover,.nav-links:active{
   text-decoration: none !important;
   color: #3A5F69 !important;
 }
@@ -72,6 +73,7 @@ body {
   text-align: center;
   border: solid #3A5F69 2px;
   margin-left: 10px;
+  display: block;
 }
 .rs-btn{
   background-color: transparent;
@@ -82,6 +84,11 @@ body {
 }
 .menu-side-bar{
   display: none;
+}
+.nav_side_bar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 @media screen and (max-width: 1050px) {
   .menu-side-bar{
@@ -138,48 +145,11 @@ a:active {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
-  .about-us-section p {
-    padding: 0em !important;
-  }
-}
-
-.login-popup{
-
-  width: 445px;
-  height: 450px;
-  /* background-color: #718e94; */
-
-}
-
-#login{
-  width: 50%;
-  margin-left: 25%;
-}
-
-#pop{
-  margin-top: 5%;
-}
-
-.customPlaceholder::placeholder {
-  color: black; /* Change the placeholder text color to green */
-}
-
-#signup{
-  color:#718e94;
-  margin-left: 42%;
-  text-size-adjust: 30px;
-}
-
-#icons{
-  margin-left: 40%;
-  margin-bottom: 15%;
-}
-
-#google-icon{
-  margin-bottom: 35%;
-}
-
-#github-icon{
-  margin-bottom: 35%;
+.rs-modal-content{
+  height: fit-content;
+  width: fit-content;
+  padding: 0% !important;
+  margin: auto;
+  background-color: transparent;
+  border-radius: 20px;
 }

@@ -1,0 +1,20 @@
+@import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+body{
+    background-color: #212529;
+}
+.modal-login-button{
+    color: white !important;
+    border:solid 2px white !important;
+}
+.modal-heading{
+    font-size: 20px !important;
+}
+.login-detail-box{
+    margin-top: 20px;
+}
+#formControlLg{
+    color: white !important;
+    background-color: #212529 !important;
+}
