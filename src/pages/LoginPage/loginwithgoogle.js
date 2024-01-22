@@ -14,9 +14,9 @@ function SignINwithGoogle() {
         })
     }
 
-    useEffect(()=>{
-        setValue(localStorage.getItem('email')),[]
-    })
+    // useEffect(()=>{
+    //     setValue(localStorage.getItem('email'));
+    // })
 
     // const logout =()=>{
     //     localStorage.clear();
