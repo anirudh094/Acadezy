@@ -15,7 +15,7 @@ export default function HomePage() {
           <div className="fixed-heading">Learn today for better tomorrow</div>
           <button className="banner-btn main-color-bg">View More</button>
         </div>
-        <img src="images/image1.jpg" />
+        <img src="images/image1.jpg" alt="logo" />
       </div>
 
       <Container>

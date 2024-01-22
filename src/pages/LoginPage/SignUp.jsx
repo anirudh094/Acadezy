@@ -2,7 +2,6 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from "react";
 import { auth } from "../firebaseconfig";
-import { Link } from "react-router-dom";
 import GoogleLogin from "../LoginPage/loginwithgoogle";
 import "../LoginPage/loginpage.css";
 import {

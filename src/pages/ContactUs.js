@@ -1,6 +1,5 @@
 import React,{useState} from "react";
 import "../css/contactus.css";
-import { Reload } from "@rsuite/icons";
 
 const ContactUs = () => {
 

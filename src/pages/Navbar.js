@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from 'rsuite';
-import SearchIcon from '@rsuite/icons/Search';
 import MenuIcon from '@rsuite/icons/Menu';
 import { Drawer, ButtonToolbar, Button, Modal } from 'rsuite';
-import Logout from "./LoginPage/AuthDetails";
 import Login from "./LoginPage/SignUp";
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import {auth} from "../pages/firebaseconfig";
@@ -22,8 +20,7 @@ function NavbarHeader () {
   const [loginopen, setLoginOpen] = React.useState(false);
   const loginhandleOpen = () => setLoginOpen(true);
   const loginhandleClose = () => setLoginOpen(false);
-  const [backdrop, setBackdrop] = React.useState(true);
-
+  //const [backdrop, setBackdrop] = React.useState(true);
   const [authUser, setAuthUser] = useState(null);
 
   useEffect(() => {
@@ -56,7 +53,7 @@ function NavbarHeader () {
     <Navbar>
     <Navbar.Brand href="#">
         <div className="logo">
-            <img src="images/logo_name.png"></img>
+            <img src="images/logo_name.png" alt="logo"></img>
         </div>
     </Navbar.Brand>
     <Nav className='menu-top-bar'>
@@ -96,7 +93,7 @@ function NavbarHeader () {
                 <Link className="nav-links nav-links-login main-color-bg" onClick={loginhandleOpen}>
                   SignUp
                 </Link>
-                <Modal backdrop={backdrop} open={loginopen} onClose={loginhandleClose}><Login/></Modal> 
+                <Modal  open={loginopen} onClose={loginhandleClose}><Login/></Modal> 
                 {/* <Link className="nav-links nav-links-login main-color-bg" to={"/signup"}>
                   SignUp
                 </Link> */}
@@ -136,7 +133,7 @@ function NavbarHeader () {
                     <Link className="nav-links nav-links-login main-color-bg" onClick={loginhandleOpen}>
                       Login
                     </Link>
-                    <Modal backdrop={backdrop} open={loginopen} onClose={loginhandleClose}><Login/></Modal>
+                    <Modal open={loginopen} onClose={loginhandleClose}><Login/></Modal>
                   </>
                 )}
               </div>

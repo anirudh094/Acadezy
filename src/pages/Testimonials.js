@@ -15,28 +15,28 @@ function Testimonials() {
             <div className="testimonial-heading">Our Students Testimonials</div>
             <div className="carousel" data-flickity='{"groupCells": 1,"autoPlay": 900,"pauseAutoPlayOnHover": false, "wrapAround": true,"prevNextButtons": false }'>
                 <div className="carousel-cell">
-                    <img src="images/3.png"></img>
+                    <img src="images/3.png" alt="Testimonials"></img>
                     <p className="testimonial-comment">Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.</p>
                     <div className="testimonial-comment-name">Richard McClintock,Hampden-Sydney College</div>
                 </div>
                 <div className="carousel-cell">
-                    <img src="images/3.png"></img>
+                    <img src="images/3.png" alt="Testimonials"></img>
                     <p className="testimonial-comment">Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.</p>
                     <div className="testimonial-comment-name">Richard McClintock,Hampden-Sydney College</div>
                 </div>
                 <div className="carousel-cell">
-                    <img src="images/3.png"></img>
+                    <img src="images/3.png" alt="Testimonials"></img>
                     <p className="testimonial-comment">Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.</p>
                     <div className="testimonial-comment-name">Richard McClintock,Hampden-Sydney College</div>
                 </div>
                 <div className="carousel-cell">
-                    <img src="images/3.png"></img>
+                    <img src="images/3.png" alt="Testimonials"></img>
                     <p className="testimonial-comment">Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.
                     </p>
                     <div className="testimonial-comment-name">Richard McClintock,Hampden-Sydney College</div>
                 </div>
                 <div className="carousel-cell">
-                    <img src="images/3.png"></img>
+                    <img src="images/3.png" alt="Testimonials"></img>
                     <p className="testimonial-comment">Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.</p>
                     <div className="testimonial-comment-name">Richard McClintock,Hampden-Sydney College</div>
                 </div>

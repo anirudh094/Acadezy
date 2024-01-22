@@ -15,19 +15,19 @@ function Partners() {
             <div className="partners-heading">Our Partners</div>
             <div className="carousel partners-carousel" data-flickity='{"groupCells": 1,"autoPlay": 900,"pauseAutoPlayOnHover": false, "wrapAround": true,"prevNextButtons": false, "pageDots": false}'>
                 <div className="carousel-cell partners-cell">
-                    <img src="images/4.png"></img>
+                    <img src="images/4.png" alt="partners"></img>
                 </div>
                 <div className="carousel-cell partners-cell">
-                    <img src="images/4.png"></img>
+                    <img src="images/4.png" alt="partners"></img>
                 </div>
                 <div className="carousel-cell partners-cell">
-                    <img src="images/4.png"></img>
+                    <img src="images/4.png" alt="partners"></img>
                 </div>
                 <div className="carousel-cell partners-cell">
-                    <img src="images/4.png"></img>
+                    <img src="images/4.png" alt="partners"></img>
                 </div>
                 <div className="carousel-cell partners-cell">
-                    <img src="images/4.png"></img>
+                    <img src="images/4.png" alt="partners"></img>
                 </div>
             </div>
             

@@ -15,13 +15,13 @@ function SignINwithGoogle() {
     }
 
     useEffect(()=>{
-        setValue(localStorage.getItem('email'));
+        setValue(localStorage.getItem('email')),[]
     })
 
-    const logout =()=>{
-        localStorage.clear();
-        window.location.reload();
-    }
+    // const logout =()=>{
+    //     localStorage.clear();
+    //     window.location.reload();
+    // }
 
   return (
     <>
