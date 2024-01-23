@@ -279,10 +279,11 @@ export default function HomePage() {
               </div>
             </div>
 
-            <ContactUs/>
+            
           </div>
         </div>
       </Container>
+      <ContactUs/>
     </>
   );
 }

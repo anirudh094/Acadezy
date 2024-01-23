@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import HomePage from "./HomePage";
 import ContactUs from "./ContactUs";
 import AboutUs from "./AboutUs";
-import Products from "./Products";
+import {Products} from "./Products";
 import SignUp from "./LoginPage/SignUp"
 const NavigationalRoutes = () => {
   return (
