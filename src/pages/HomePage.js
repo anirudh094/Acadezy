@@ -14,7 +14,7 @@ export default function HomePage() {
           <div className="rotating-heading main-color"></div>
           <div className="fixed-heading">At Acadezy you will not just get the best theoretical education, but we will also give you the required skills, and industry exposure to be successful in your field</div>
           <div className="banner-button-wrapper">
-            <a className="banner-button-cta" href="#">
+            <a className="banner-button-cta" href="#courses">
               <span>Know More</span>
               <span>
                 <svg width="20px" height="15.5px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg">
