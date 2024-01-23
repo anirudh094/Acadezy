@@ -8,12 +8,6 @@
     background-color: white;
     height: 200px;
 }
-.partners-heading{
-    color: #3A5F69;
-    font-weight: 800;
-    font-size: 250%;
-    margin-bottom: 40px;
-}
 .partners-cell{
   height: fit-content;
   margin-right: 10px;

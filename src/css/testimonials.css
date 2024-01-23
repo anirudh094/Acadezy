@@ -1,19 +1,14 @@
 * { box-sizing: border-box; }
 
 .testimonials-body{
-    background-color: #3A5F69;
+    background-color: #04042C;
     padding: 40px 30px;
 }
 .carousel {
-    background-color: #3A5F69;
+    background-color: #04042C;
     height: fit-content;
 }
-.testimonial-heading{
-    color: white;
-    font-weight: 800;
-    font-size: 250%;
-    margin-bottom: 40px;
-}
+
 .carousel-cell {
   height: 500px;
   margin-right: 10px;

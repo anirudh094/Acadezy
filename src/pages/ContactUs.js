@@ -58,12 +58,12 @@ const postData = async (e) => {
 
   return (
     <>
-      {/* <section className="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px]"> */}
+      <section className="relative z-10 overflow-hidden bg-white py-10  contactus-body">
         <div className="container mx-auto " style={{marginTop:'65px'}}>
           <div className="-mx-4 flex flex-wrap lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
-              <div className="mb-12 max-w-[570px] lg:mb-0">
-                <h1 className="mb-6 main-color  text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
+              <div className="mb-4 max-w-[570px] lg:mb-0">
+                <h1 className="heading main-color">
                   GET IN TOUCH WITH US
                 </h1>
                 <p className="text-body-color mb-9 text-base leading-relaxed">
@@ -1013,76 +1013,8 @@ const postData = async (e) => {
               </div>
             </div>
           </div>
-
-          {/* <div className="py-16 bg-gray-50">
-            <div className="container mx-auto px-4 flex flex-col lg:items-center justify-between lg:flex-row">
-              <div className="mb-14 xl:mb-0">
-                <h1 className="text-2xl leading-tight md:text-4xl xl:text-5xl font-semibold leading-10   text-gray-800 xl:w-2/3 pr-16 lg:pr-0">
-                  Students Testimonials
-                </h1>
-                <p className="mt-4 text-base leading-normal text-gray-600 md:w-2/3 lg:w-3/4 pr-16 lg:pr-0">
-                  Our studenst are placed in top mnc's like microsoft, capegemini etc.
-                </p>
-                <button className="hidden md:block w-full sm:w-auto mt-12 focus:outline-none flex items-start justify-center sm:justify-start px-8 py-4 main-color-bg rounded text-base font-medium leading-none text-center text-white">
-                  Read success stories
-                </button>
-              </div>
-              <div
-                role="list"
-                aria-label="Testimonials"
-                className="xl:w-1/2 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6 flex-wrap justify-center items-start"
-              >
-                <div
-                  role="listitem"
-                  className="bg-white shadow rounded p-4 xl:p-8"
-                >
-                  <div className="pl-4 pt-4 flex items-start justify-between">
-                    <div className="mr-6">
-                      <p className="xl:text-xl xl:leading-loose text-gray-600">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget sapien sit amet nunc accumsan consectetur. Curabitur euismod convallis neque, vitae placerat turpis interdum eget. Quisque auctor metus eu nulla consectetur, sed 
-                      eleifend turpis fermentum. Ut euismod lorem vitae justo ullamcorper, quis sagittis nunc convallis. Integer sed elit id libero suscipit efficitur.
-                      </p>
-                      <p className="mt-4 text-base font-semibold leading-none text-gray-800">
-                        Abc
-                      </p>
-                    </div>
-                    <img
-                      src="https://cdn.tuk.dev/assets/components/26May-update/avatar-1.png"
-                      alt="Display Avatar of Anna Smith"
-                      role="img"
-                    />
-                  </div>
-                </div>
-                <div
-                  role="listitem"
-                  className="bg-white shadow rounded p-4 xl:p-8"
-                >
-                  <div className="pl-4 pt-4 flex items-start justify-between">
-                    <div className="mr-6">
-                      <p className="xl:text-xl xl:leading-loose text-gray-600">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget sapien sit amet nunc accumsan consectetur. Curabitur euismod convallis neque, vitae placerat turpis interdum eget. Quisque auctor metus eu nulla consectetur, sed 
-                      eleifend turpis fermentum. Ut euismod lorem vitae justo ullamcorper, quis sagittis nunc convallis. Integer sed elit id libero suscipit efficitur.
-                      </p>
-                      <p className="mt-4 text-base font-semibold leading-none text-gray-800">
-                        abc
-                      </p>
-                    </div>
-                    <img
-                      src="https://cdn.tuk.dev/assets/components/26May-update/avatar-2.png"
-                      alt="Display avatar of Dany John"
-                      role="img"
-                    />
-                  </div>
-                </div>
-
-                <button className="md:hidden w-full sm:w-auto mt-4 focus:outline-none focus:ring-2flex items-start justify-center sm:justify-start px-8 py-4 main-color-bg rounded text-base font-medium leading-none text-center text-white">
-                  Read success stories
-                </button>
-              </div>
-            </div>
-          </div> */}
         </div>
-      {/* </section> */}
+      </section>
     </>
   );
 };

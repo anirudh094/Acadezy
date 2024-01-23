@@ -3,9 +3,9 @@ import "../css/about.css";
 const AboutUs = () => {
   return (
     <>
-      <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
-        <p class=" mb-4 block text-3xl font-bold text-center main-color">
-          About
+      <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4 aboutus-body">
+        <p class=" heading main-color">
+          About Us
         </p>
         <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12 remove-flex-sm">
           <div className="w-full lg:w-6/12">

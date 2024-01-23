@@ -12,7 +12,7 @@ function Testimonials() {
   return (
     <>
         <div className="testimonials-body">
-            <div className="testimonial-heading">Our Students Testimonials</div>
+            <div className="heading main-color">Our Students Testimonials</div>
             <div className="carousel" data-flickity='{"groupCells": 1,"autoPlay": 900,"pauseAutoPlayOnHover": false, "wrapAround": true,"prevNextButtons": false }'>
                 <div className="carousel-cell">
                     <img src="images/3.png" alt="Testimonials"></img>

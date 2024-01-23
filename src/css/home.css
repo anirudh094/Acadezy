@@ -1,11 +1,13 @@
+
+
 /* First Banner */
 .first-banner-0{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  align-content: center;
+  justify-content: center;
   width: 100%;
-  background-color: white;
   height: fit-content;
   padding: 0%;
 }
@@ -17,22 +19,23 @@
 }
 .first-banner{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   justify-content: space-between;
-  background-color: white;
   width: 45%;
 }
 .first-banner-0 img{
-  width: 50%;
+  width: 35%;
 }
 .rotating-heading{
   font-size: 4vw;
-  text-align: center;
+  font-weight: 800;
+  text-align: left;
 }
 .fixed-heading{
-  font-size: 3vw;
-  text-align: center !important;
+  font-size: 2vw;
+  color: white;
+  text-align: left !important;
 }
 .view{
   width: 85%;
@@ -41,21 +44,7 @@
   text-align: center;
   margin-top: 10px;
 }
-.banner-btn{
-  color: white;
-  text-align: center;
-  border-radius: 2px;
-  font-size: 70%;
-  margin-top: 10px;
-  padding: 5px 30px;
-  border: 3px solid #3A5F69;
-  width: fit-content;
-}
-.banner-btn:hover{
-  background-color: white;
-  border-color: #3A5F69;
-  color: #3A5F69;
-}
+
 .rotating-heading::before {
   content: "Revolutionizing Learning";
   animation-name: animate;
