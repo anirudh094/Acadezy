@@ -16,6 +16,8 @@
 .course-img img{
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  /* width: 384px; */
+  height: 216px;
 }
 .course-name,.course-author,.rating-box{
   margin: 5px 10px 0px 10px;

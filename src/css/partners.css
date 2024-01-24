@@ -1,11 +1,11 @@
 * { box-sizing: border-box; }
 
 .partners-body{
-    background-color: white;
-    padding: 40px 30px 0px;
+    background-color: black;
+    padding: 40px 30px;
 }
 .partners-carousel {
-    background-color: white;
+    background-color: black;
     height: 200px;
 }
 .partners-cell{
@@ -21,5 +21,7 @@
       }
 }
 .partners-cell img{
+    width: 100%;
+    height: 200px;
     border-radius: 0%;
 }
