@@ -8,7 +8,7 @@ import {auth} from "../pages/firebaseconfig";
 import "../App.css";
 
 function NavbarHeader () {
-  const MenuUIcon = ({ size }) => <MenuIcon style={{ fontSize: size, marginRight: 10 }} />;
+  const MenuUIcon = ({ size }) => <MenuIcon style={{ fontSize: size, marginRight: 10, color: "white" }} />;
   const [size, setSize] = React.useState();
   const [open, setOpen] = React.useState(false);
   const handleOpen = value => {
