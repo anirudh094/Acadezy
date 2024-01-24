@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from 'rsuite';
 import MenuIcon from '@rsuite/icons/Menu';
-import { Drawer, ButtonToolbar, Button, Modal } from 'rsuite';
-import Login from "./LoginPage/SignUp";
+import { Drawer, ButtonToolbar, Button } from 'rsuite';
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import {auth} from "../pages/firebaseconfig";
 import "../App.css";
@@ -17,10 +16,6 @@ function NavbarHeader () {
     setOpen(true);
   };
 
-  const [loginopen, setLoginOpen] = React.useState(false);
-  const loginhandleOpen = () => setLoginOpen(true);
-  const loginhandleClose = () => setLoginOpen(false);
-  //const [backdrop, setBackdrop] = React.useState(true);
   const [authUser, setAuthUser] = useState(null);
 
   useEffect(() => {
@@ -73,13 +68,9 @@ function NavbarHeader () {
               </>
             ) : (
               <>
-                <Link className="nav-links nav-links-login" onClick={loginhandleOpen}>
+                <Link className="nav-links nav-links-login" to={"/signup"}>
                   SignUp
                 </Link>
-                <Modal  open={loginopen} onClose={loginhandleClose}><Login/></Modal> 
-                {/* <Link className="nav-links nav-links-login main-color-bg" to={"/signup"}>
-                  SignUp
-                </Link> */}
               </>
             )}
           </div>
@@ -98,11 +89,6 @@ function NavbarHeader () {
             <Nav.Item><Link className="nav-links" to={"/products"}>Internship</Link></Nav.Item>
             <Nav.Item><Link className="nav-links" to={"/aboutus"}>About Us</Link></Nav.Item>
             <Nav.Item><Link className="nav-links" to={"/contactus"}>Contact Us</Link></Nav.Item>
-            {/* <Nav.Item>
-              <Link className="nav-links nav-links-register main-color-bg" to={"/contactus"}>
-                Register Now
-              </Link>
-            </Nav.Item> */}
             <Nav.Item>
               <div>
                 {authUser ? (
@@ -113,10 +99,9 @@ function NavbarHeader () {
                   </>
                 ) : (
                   <>
-                    <Link className="nav-links nav-links-login" onClick={loginhandleOpen}>
-                      Login
+                    <Link className="nav-links nav-links-login" to={"/signup"}>
+                      SignUp
                     </Link>
-                    <Modal open={loginopen} onClose={loginhandleClose}><Login/></Modal>
                   </>
                 )}
               </div>

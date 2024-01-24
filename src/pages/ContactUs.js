@@ -1,5 +1,7 @@
 import React,{useState} from "react";
 import "../css/contactus.css";
+import Testimonials from "./Testimonials"
+import Partners from "./Partners.js"
 
 const ContactUs = () => {
 
@@ -1015,6 +1017,8 @@ const postData = async (e) => {
           </div>
         </div>
       </section>
+      <Testimonials />
+      <Partners />
     </>
   );
 };

@@ -3,7 +3,7 @@ import HomePage from "./HomePage";
 import ContactUs from "./ContactUs";
 import AboutUs from "./AboutUs";
 import {Products} from "./Products";
-import SignUp from "./LoginPage/SignUp"
+import SignUp from "./SignUp"
 const NavigationalRoutes = () => {
   return (
     <Routes>

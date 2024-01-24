@@ -1,5 +1,8 @@
 import React from "react";
 import "../css/about.css";
+import Testimonials from "./Testimonials"
+import Partners from "./Partners.js"
+
 const AboutUs = () => {
   return (
     <>
@@ -194,6 +197,8 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+      <Testimonials />
+      <Partners />
     </>
   );
 };
