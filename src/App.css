@@ -43,7 +43,7 @@ body {
   text-decoration: none;
 }
 
-.nav-links:hover,.nav-links:active{
+.nav-links:hover,.nav-links:active,.nav-links:focus,.nav-links:checked{
   color: #04042c !important;
 }
 
@@ -57,7 +57,7 @@ body {
   display: block;
   background-color: white;
 }
-.rs-btn{
+.rs-btn,.rs-btn:hover,.rs-btn:focus{
   background-color: transparent;
   margin: 6px 0px;
 }
