@@ -56,7 +56,7 @@ function Testimonials() {
             </div>
           </div>
           <div className="carousel-cell">
-            <img src="https://cdn-icons-png.flaticon.com/512/4042/4042536.png"></img>
+            <img src="https://cdn-icons-png.flaticon.com/512/4042/4042536.png" alt="Testimonials"></img>
             <div className="carousel-cell-body">
               <p className="testimonial-comment">
                 I can't recommend Acadezy's Flutter course enough! The
