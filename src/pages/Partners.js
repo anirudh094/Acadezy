@@ -12,7 +12,7 @@ function Partners() {
   return (
     <>
         <div className="partners-body">
-            <div className="heading main-color">Our Partners</div>
+            <div className="heading main-color">Our Prestigious Partners</div>
             <div className="carousel partners-carousel" data-flickity='{"groupCells": 1,"autoPlay": 900,"pauseAutoPlayOnHover": false, "wrapAround": true,"prevNextButtons": false, "pageDots": false}'>
                 <div className="carousel-cell partners-cell">
                     <img src="https://etimg.etb2bimg.com/photo/89939048.cms" alt="partners"></img>
