@@ -4,6 +4,7 @@ import ContactUs from "./ContactUs";
 import AboutUs from "./AboutUs";
 import {Products} from "./Products";
 import SignUp from "./SignUp"
+import {ArtificialIntelligence} from "./Course-pages/ArtificialIntelligence";
 const NavigationalRoutes = () => {
   return (
     <Routes>
@@ -12,6 +13,7 @@ const NavigationalRoutes = () => {
       <Route path="/aboutus" element={<AboutUs />} />
       <Route path="/products" element={<Products />} />
       <Route path="/signup" element={<SignUp />} />
+      <Route path="/artificialintelligence" element={<ArtificialIntelligence />} />
     </Routes>
   );
 };

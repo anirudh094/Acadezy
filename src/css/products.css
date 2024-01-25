@@ -1,34 +1,34 @@
-.courses-container{
+.products-container{
   padding: 20px;
   background-color: #F0F8FF;
 }
-.course-group{
+.product-group{
   border-radius: 15px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 300ms;
   background-color: white;
 }
-.course-group:hover {
+.product-group:hover {
   transform: translateY(-2px);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.course-img img{
+.product-img img{
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  /* width: 384px; */
+  width: 100%;
   height: 216px;
 }
-.course-name,.course-author,.rating-box{
+.product-name,.product-author,.rating-box{
   margin: 5px 10px 0px 10px;
 }
-.course-name{
+.product-name{
   margin-top: 20px;
   color: black;
   font-size: 20px;
   font-weight: 700;
 }
-.course-author{
+.product-author{
   color: #7a7e82;
   font-size: 12px;
 }
@@ -37,20 +37,20 @@
   align-items: center;
   margin-top: 15px;
 }
-.course-rating-star{
+.product-rating-star{
   width: 18px;
 }
-.course-rating{
+.product-rating{
   font-size: 18px;
   color: black;
   margin-left: 6px;
 }
-.course-duration{
+.product-duration{
   color: black;
   font-size: 18px;
   margin-left: 8px;
 }
-.course-price-box{
+.product-price-box{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -60,7 +60,7 @@
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
 }
-.course-price{
+.product-price{
   color: black;
   font-size: 20px;
   font-weight: 600;

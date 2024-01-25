@@ -1,7 +1,8 @@
 import React from "react";
 import "../css/products.css";
+import { Link } from "react-router-dom";
 import StartFirebase from "./firebaseconfig_products";
-import { ref, onValue } from "firebase/database";
+import { ref, onValue} from "firebase/database";
 import ContactUs from "./ContactUs";
 const db = StartFirebase();
 
@@ -30,24 +31,25 @@ export class Products extends React.Component {
   render() {
     return (
       <>
-        <div className="courses-container">
+        <div className="products-container">
           <div className="heading main-color">Courses We Offer</div>
           <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
             {this.state.tableData.map((row, index) => {
               return (
-                <a href={row.data.href} className="group course-group">
-                  <div className="course-img">
+                <Link className="group product-group" to={row.data.href}>
+                  <a href={row.data.href} className="">
+                  <div className="product-img">
                     <img src={row.data.imageSrc} alt={row.key} />
                   </div>
-                  <div className="course-details">
-                    <h3 className="course-name">{row.key}</h3>
-                    <h4 className="course-author">{"By " + row.data.author}</h4>
+                  <div className="product-details">
+                    <h3 className="product-name">{row.key}</h3>
+                    <h4 className="product-author">{"By " + row.data.author}</h4>
                     <div className="rating-box">
                       <div>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 576 512"
-                          className="course-rating-star"
+                          className="product-rating-star"
                         >
                           <path
                             fill="#FFD43B"
@@ -55,11 +57,11 @@ export class Products extends React.Component {
                           />
                         </svg>
                       </div>
-                      <div className="course-rating">{row.data.rating}</div>
-                      <div className="course-duration">{`|  ${row.data.duration} weeks`}</div>
+                      <div className="product-rating">{row.data.rating}</div>
+                      <div className="product-duration">{`|  ${row.data.duration} weeks`}</div>
                     </div>
-                    <div className="course-price-box">
-                      <div className="course-price">
+                    <div className="product-price-box">
+                      <div className="product-price">
                         {"₹" + row.data.price}{" "}
                         <s className="price-cut">₹4990</s>
                       </div>
@@ -84,6 +86,8 @@ export class Products extends React.Component {
                     </div>
                   </div>
                 </a>
+                </Link>
+                
               );
             })}
           </div>
