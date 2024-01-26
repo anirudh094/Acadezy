@@ -119,7 +119,7 @@ export class ArtificialIntelligence extends React.Component {
                     </div>
                   </div>
                   <div className="courses-banner-img">
-                    <img src={row.data.imageSrc}></img>
+                    <img src={row.data.imageSrc} alt={row.data.name}></img>
                   </div>
                 </div>
                 <div className="price-container-body" id="price-container-body">
