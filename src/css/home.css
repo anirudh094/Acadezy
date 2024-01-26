@@ -4,42 +4,39 @@
 .first-banner-0{
   display: flex;
   flex-direction: row;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  width: 100%;
-  height: fit-content;
-  padding-bottom: 30px;
+  width: 80%;
+  margin: auto;
 }
-.side-color{
-  width: 5%;
-  height: 40vw;
-  min-height: 100px;
-  max-height: 500px;
+@media screen and (max-width: 1050px) {
+  .first-banner-0{
+      display: flex;
+      flex-direction: column;
+  }
 }
 .first-banner{
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
-  justify-content: space-between;
-  width: 45%;
+  align-items: flex-start !important;
 }
 .first-banner-0 img{
-  width: 35%;
+  width: 500px;
+  max-height: 400px;
 }
 .rotating-heading{
-  font-size: 4vw;
+  font-size: 40px;
   font-weight: 800;
-  text-align: left;
+  text-transform: uppercase;
 }
 .fixed-heading{
-  font-size: 2vw;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   color: white;
   text-align: left !important;
+  width: 80%;
 }
-
 .rotating-heading::before {
-  content: "Revolutionizing Learning";
+  content: "Smart Learning for a Bright Tomorrow";
   animation-name: animate;
   animation-duration: 3s;
   animation-iteration-count: infinite;
