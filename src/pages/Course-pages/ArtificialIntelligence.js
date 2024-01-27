@@ -4,6 +4,9 @@ import "../course-css/button.scss";
 import Razorpay5000 from "../Razorpay/razorpay5000";
 import Razorpay9000 from "../Razorpay/razorpay9000";
 import Razorpay13000 from "../Razorpay/razorpay13000";
+import Certificate from "../certificate";
+import {Products} from "../Products";
+
 import StartFirebase from "../firebaseconfig_products";
 import { ref, onValue, query, orderByChild, equalTo } from "firebase/database";
 const db = StartFirebase();
@@ -422,6 +425,8 @@ export class ArtificialIntelligence extends React.Component {
                     </div>
                   </div>
                 </div>
+                <Certificate/>
+                <Products/>
               </>
             );
           })}
