@@ -2,7 +2,6 @@ import React from "react";
 import "../css/home.css";
 import "../css/banner-button.css";
 import { Products } from "./Products";
-import { AnimatedOnScroll } from "react-animated-css-onscroll";
 
 export default function HomePage() {
   return (
