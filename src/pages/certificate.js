@@ -55,7 +55,7 @@ function Certificate() {
           </div>
         </div>
         <div className="certificate-learners">
-          <img src="https://www.acmegrade.com/images/project/real_tag.svg" alt="image"/>
+          <img src="https://www.acmegrade.com/images/project/real_tag.svg" alt="certificate"/>
           <p>
             9 / 10 of our learners achieve their learning objectives after
             successful course completion.
