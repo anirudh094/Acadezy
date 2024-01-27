@@ -6,6 +6,7 @@
   flex-direction: row;
   width: 80%;
   margin: auto;
+  padding-bottom: 60px;
 }
 @media screen and (max-width: 1050px) {
   .first-banner-0{

@@ -1,15 +1,17 @@
 import React from "react";
 import "../css/certificate.css";
+import { AnimatedOnScroll } from "react-animated-css-onscroll";
 
 function Certificate() {
   return (
-    <>
+    <> 
       <div className="certificate-body">
         <h1>Certifications</h1>
         <h3>
           On completion of a program each participant gets a course completion,
           internship and outstanding performance certificates.
         </h3>
+        <AnimatedOnScroll animationIn="fadeInDownBig">
         <div className="certificate-grid">
           <div className="certificate-container">
             <img
@@ -54,6 +56,8 @@ function Certificate() {
             </div>
           </div>
         </div>
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="wobble">
         <div className="certificate-learners">
           <img src="https://www.acmegrade.com/images/project/real_tag.svg" alt="certificate"/>
           <p>
@@ -61,7 +65,10 @@ function Certificate() {
             successful course completion.
           </p>
         </div>
+        </AnimatedOnScroll>
       </div>
+      
+
     </>
   );
 }
